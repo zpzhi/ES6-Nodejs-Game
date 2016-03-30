@@ -6,7 +6,9 @@ Development platform: ES6, Nodejs, babel.
 Test Environment: Mocha, Chai, babel.
 
 How to run:
-  1. To start the server, run command: npm run dev
+  1. Please install nodejs, to be able to use npm
+  2. To start the server, open terminal, run command: npm run dev
+  2. Wait, until display "listening on:3000" in terminal
   2. Open browser, enter: http://localhost:3000
   3. To test in different browser and devices, if in the same wifi, get running server ip address, and replace localhost with that IP address.
 
