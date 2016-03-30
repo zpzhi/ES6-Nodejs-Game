@@ -1,0 +1,54 @@
+
+.section{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  width: 70%;
+  transform: translate(-50%,-50%);
+  float: none;
+  border: 3px solid #0B132B;
+  padding-top: 25px;
+  padding-bottom: 85px;
+  border-radius: 10px;
+
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+ }
+
+
+.section >.centerbutton{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.centerbutton > img{
+    opacity: 0.5;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+
+.centerbutton > img:hover{
+    opacity: 1;
+}
+
+.centerbutton > img.desc{
+    opacity: 0;
+
+    transition: all 0.5s;
+}
+.centerbutton > img:hover .desc{
+    opacity: 1;
+}
+
+#imgbutton{
+  cursor: pointer;
+}
+
+@media screen and (orientation:portrait) {
+  .section {
+    width:100%;
+  }
+}
