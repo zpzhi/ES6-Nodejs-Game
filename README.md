@@ -14,13 +14,14 @@ To run unit test:
   1. run command: npm run test.
   2. The unit tests are for experiment purposes, only two unit tests will be run.
 
-Tested browsers and devices:
-  Mac OSX EI: chrome version 49.0.2623.87, firefox version 45.0.1
-  Windows 7: chrome version 49.
-  IPhone 5s: safari, chrome version 47.0
-  IPad air: safari, chrome version 49.
+Tested devices and browsers:
+  1. Mac OSX EI: chrome version 49.0.2623.87, firefox version 45.0.1
+  2. Windows 7: chrome version 49.
+  3. IPhone 5s: safari, chrome version 47.0
+  4. IPad air: safari, chrome version 49.
 
 Some snapshots from differnt devices and browsers: 
+
 Mac OSX EI: chrome 49
 ![1](https://cloud.githubusercontent.com/assets/7226799/14160570/5d8a7ee2-f6dd-11e5-9529-948d347f67e8.png)
 
