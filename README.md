@@ -6,19 +6,19 @@ Development platform: ES6, Nodejs, babel.
 Test Environment: Mocha, Chai, babel.
 
 How to run:
-1. To start the server, run command: npm run dev
-2. Open browser, enter: http://localhost:3000
-3. To test in different browser and devices, if in the same wifi, get running server ip address, and replace localhost with
-that IP address.
+  1. To start the server, run command: npm run dev
+  2. Open browser, enter: http://localhost:3000
+  3. To test in different browser and devices, if in the same wifi, get running server ip address, and replace localhost with that IP address.
 
 To run unit test:
-1. run command: npm run test
+  1. run command: npm run test.
+  2. The unit tests are for experiment purposes, only two unit tests will be run.
 
 Tested browsers and devices:
-Mac OSX EI: chrome version 49.0.2623.87, firefox version 45.0.1
-Windows 7: chrome version 49.
-IPhone 5s: safari, chrome version 47.0
-IPad air: safari, chrome version 49.
+  Mac OSX EI: chrome version 49.0.2623.87, firefox version 45.0.1
+  Windows 7: chrome version 49.
+  IPhone 5s: safari, chrome version 47.0
+  IPad air: safari, chrome version 49.
 
 Some snapshots from differnt devices and browsers: 
 Mac OSX EI: chrome 49
