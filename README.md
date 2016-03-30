@@ -27,9 +27,10 @@ Mac OSX EI: chrome 49
 Mac OSX EI: firefox 45
 ![4](https://cloud.githubusercontent.com/assets/7226799/14160568/5d8a2e74-f6dd-11e5-811a-5557e4866d9f.png)
 
-Iphone 5s safari landscape and portstait
-![5](https://cloud.githubusercontent.com/assets/7226799/14160571/5d8b2b58-f6dd-11e5-937a-664ae5351957.PNG)
-![6](https://cloud.githubusercontent.com/assets/7226799/14160569/5d8a3202-f6dd-11e5-8627-dcda8754269d.PNG)
+Iphone 5s safari landscape and portrait
+![5](https://cloud.githubusercontent.com/assets/7226799/14160722/99399ef4-f6de-11e5-81dc-c37e016d39b3.PNG)
+![6](https://cloud.githubusercontent.com/assets/7226799/14160721/9937e4ec-f6de-11e5-80d1-27a668b950f6.PNG)
+
 
 
 
