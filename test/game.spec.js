@@ -7,7 +7,7 @@ var should = require('chai').should;
 // Tell chai that we'll be using the "should" style assertions.
 chai.should();
 
-// Import the Rectangle class.
+// Import the game class
 let game = require(path.join(__dirname, '..', 'modules/game'));
 
 // The fat arrow (=>) syntax is a new way to define
@@ -37,7 +37,7 @@ describe('game', () => {
     });
 
     it('can be changed', () => {
-      // Assert that the width can be changed.
+      // Assert that the win_dec can be changed.
       gm.win_dec = "Fantastic";
       gm.win_dec.should.equal("Fantastic");
     });
