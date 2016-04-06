@@ -1,5 +1,4 @@
 import express from 'express';
-import socketio from 'socket.io';
 import path from 'path';
 
 export class game {
@@ -11,11 +10,14 @@ export class game {
   }
 
   start (){
+    let webSocketServer = require('websocket').server;
     let server = this.app.listen(3000, () => {
       console.log('listening on:3000'); 
     });
-    let io = socketio(server);
-    return io;
+    let wsServer = new webSocketServer({
+      httpServer: server
+    });
+    return wsServer;
   }
   
  initialize() {

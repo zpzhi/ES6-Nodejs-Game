@@ -11,4 +11,9 @@ export function random_result(){
 	return array;
 }
 
+export function htmlEntities(str) {
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+                      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
         
