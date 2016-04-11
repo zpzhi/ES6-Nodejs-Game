@@ -14,7 +14,6 @@ var connection = new WebSocket('ws://localhost:3000');
 var winresult = document.getElementById("win-results");
 
 connection.onopen = function () {
-    // first we want users to enter their names
     //alert("connection setup");
     console.log("connection setup");
 };
